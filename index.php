@@ -31,7 +31,7 @@
 
         </fieldset>
     </div>
-    <form id="orderProduct" method="post" action="result.php">
+    <form id="orderProduct" method="post" action="result.php"><br>
         <label>Select Service</label>
         <select id="select1" onchange="fun1()">
             <option></option>
