@@ -11,7 +11,7 @@
 
 <body>
     <div>
-        <img id="photo1" src="image/spa.jpg" alt="photo1" width="328px">
+        
         <fieldset id="group1">
             <h1>Aromatica Spa</h1>
             <div>
