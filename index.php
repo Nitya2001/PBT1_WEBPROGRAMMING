@@ -11,6 +11,7 @@
 
 <body>
     <div>
+        <img id="photo1" src="image/spa.jpg" alt="photo1" width="328px">
         <fieldset id="group1">
             <h1>Aromatica Spa</h1>
             <div>
@@ -30,9 +31,9 @@
 
         </fieldset>
     </div>
-    <form id="orderProduct" method="post" action="result.php"><br>
+    <form id="orderProduct" method="post" action="result.php">
         <label>Select Service</label>
-        <select id="select1" >
+        <select id="select1" onchange="fun1()">
             <option></option>
             <option value="1">Massage RM50</option>
             <option value="2">Facials RM70</option>
@@ -82,3 +83,29 @@
 </body>
 
 </html>
+<script>
+    fun2();
+
+    function fun1() //display selected service
+    {
+        var xx = document.getElementById('select1').value;
+        fun2();
+        if (xx == 1) {
+            document.getElementById('massage').style.display = "block";
+        } else if (xx == 2) {
+            document.getElementById('facial').style.display = "block";
+        } else if (xx == 3) {
+            document.getElementById('waxing').style.display = "block";
+        } else if (xx == 4) {
+            document.getElementById('makeup').style.display = "block";
+        } else {}
+    }
+
+    function fun2() //hide unselected service
+    {
+        document.getElementById('massage').style.display = "none";
+        document.getElementById('facial').style.display = "none";
+        document.getElementById('waxing').style.display = "none";
+        document.getElementById('makeup').style.display = "none";
+    }
+</script>
