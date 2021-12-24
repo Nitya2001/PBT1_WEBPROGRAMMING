@@ -101,8 +101,8 @@
                     <tr>
                         <td colspan="6">
                             <center>
-                                <button type="submit">Pay</button>
-                                <button type="reset">Reset</button>
+                                <button class ="button1" type="submit">Pay</button>
+                                <button class ="button2" type="reset">Reset</button>
                                 <center>
                         </td>
                     </tr>
