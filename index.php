@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Aromatica Spa</title>
 </head>
-
 <body>
     <center>
         <fieldset id="group1">
@@ -23,19 +22,17 @@
                 treatments in Facials, Massages, Body Treatment, Makeup,
                 Waxing and Hair Threading. Come in and select one of our
                 Spa Packages with our top professional Aestheticians and
-                Massage Therapists. Organic Spa Massage & Skincare is a
+                Massage Therapists. Aromatica Spa Massage & Skincare is a
                 spacious haven of pampering.
             </div>
-
         </fieldset>
     </center>
-
     <br>
-
-
     <div>
-
         <center>
+            <h1>
+                Reserve Now!
+            </h1>
             <form id="bookService" method="post" action="result.php">
                 <table>
                     <tr>
@@ -56,7 +53,6 @@
                         <td>
                             <input type="radio" name="rad" id="rad2" value="Facials RM70">
                             Facials RM70 +
-
                         </td>
                         <td>
                             <input type="checkbox" name="cb4" value="40" id="one">
@@ -67,12 +63,10 @@
                             <label>Eyebrow Tinting RM20</label><br>
                         </td>
                     </tr>
-
                     <tr>
                         <td>
                             <input type="radio" name="rad" id="rad3" value="Waxing & Threading RM40">
                             Waxing & Threading RM40 +
-
                         </td>
                         <td>
                             <input type="checkbox" name="cb7" value="50" id="one">
@@ -82,12 +76,10 @@
                             <input type="checkbox" name="cb9" value="60" id="three">
                             <label>Legs RM60</label><br>
                         </td>
-
                     <tr>
                         <td>
                             <input type="radio" name="rad" id="rad4" value="Makeup RM60">
                             Makeup RM60 +
-
                         </td>
                         <td>
                             <input type="checkbox" name="cb10" value="20" id="one">
@@ -95,14 +87,14 @@
                             <input type="checkbox" name="cb11" value="20" id="two">
                             <label>Eyebrow Tint RM20</label><br>
                             <input type="checkbox" name="cb12" value="35" id="three">
-                            <label>Last & Eyebrow Tint RM35</label><br>
+                            <label>Lip Tint RM35</label><br>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="6">
                             <center>
-                                <button class ="button1" type="submit">Pay</button>
-                                <button class ="button2" type="reset">Reset</button>
+                                <button type="reset">Reset</button>
+                                <button type="submit">Reserve</button>
                                 <center>
                         </td>
                     </tr>
@@ -110,6 +102,6 @@
             </form>
             <center>
     </div>
+    <br><br>
 </body>
-
 </html>
