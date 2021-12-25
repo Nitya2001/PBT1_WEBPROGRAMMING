@@ -1,3 +1,4 @@
+
 <?php
 function calcTotal($rad, $cb1, $cb2, $cb3, $price)
 {
