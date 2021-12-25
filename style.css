@@ -9,34 +9,61 @@ li {
     font-family: Arial;
 }
 
+li {
+  list-style: none;
+  text-align: left;
+}
+
+#group1 {
+  width: 80%;
+  border: 0.5rem outset rgb(250, 0, 42);
+  background-color: rgb(233, 0, 89);
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 40px 10px;
+}
+
+
 body {
-    background-color: rgb(255, 239, 248);
+  background-color: #b10052;
+  padding: 50px;
 }
 
 table, tr, td {
-    border: 0.5rem outset pink;
-    
-    box-shadow: 0 0 0 2rem rgb(255, 211, 228);
-    font: bold 1rem sans-serif;
-    margin: 3rem;
-    padding: 2rem;
-    outline-offset: 0.5rem;
-    background-color: rgb(253, 237, 251);
-  }
+  color: white;
+  border: 0.5rem outset rgb(255, 0, 43);
+  box-shadow: 0 0 0 2rem rgb(233, 0, 89);
+  margin: 3rem;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 2rem;
+  outline-offset: 0.5rem;
+  background-color: rgb(211, 4, 83);
+}
 
-  .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #617bf1;
-    font-size: 25px;
-  }
-
-  .button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #404350;
-    font-size: 25px;
-  }
+button[type=submit], button[type=reset] {
+  background-color: rgb(233, 0, 89);
+  border: 0.5rem outset rgb(255, 0, 43);
+  padding: 10px 100px;
+  margin: 0px 0px;
+  color: white;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 20px;
+}
+h1 {
+  font-family: Arial;
+  color: white;
+}
+.papar {
+  width: 74%;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  font-family: Arial;
+  background-color: rgb(233, 0, 89);
+}
 
 
 
