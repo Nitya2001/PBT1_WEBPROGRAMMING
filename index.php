@@ -31,7 +31,7 @@
             Reserve Now!
         </h1>
         <form id="bookService" method="post" action="result.php">
-            <table>
+        <table class="center">
                 <tr>
                     <td>
                         <input type="radio" name="rad" id="rad1" value="Massage RM50">
