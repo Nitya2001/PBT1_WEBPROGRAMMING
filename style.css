@@ -47,6 +47,19 @@ button[type=submit], button[type=reset] {
   font-size: 20px;
 }
 
+.button1 {
+  background-color: rgb(255, 0, 98);
+  border: 0.5rem outset rgb(255, 0, 43);
+  padding: 10px 100px;
+  margin-left: 10%;
+  color: white;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+
+
 h1 {
   text-align: center;
   font-family: Arial;
