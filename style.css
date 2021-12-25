@@ -31,6 +31,10 @@ table, tr, td {
   outline-offset: 0.5rem;
   background-color: rgb(211, 4, 83);
 }
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
 
 button[type=submit], button[type=reset] {
   background-color: rgb(255, 0, 98);
