@@ -14,7 +14,7 @@ require 'function.php';
 </head>
 
 <body>
-<fieldset id="group1">
+    <fieldset id="group1">
         <h1>Aromatica Spa</h1>
         <div>
             <ul>
@@ -31,7 +31,7 @@ require 'function.php';
         </div>
     </fieldset>
     <br>
-    
+
     <div class="papar">
         <?php
         if ($rad == 'Massage RM50') {
@@ -67,11 +67,9 @@ require 'function.php';
         <?php
                         }
         ?>
-<br>
-<a href="index.php" class="button1">Back</a>
+        <br>
     </div>
-
-
+    <a href="index.php" class="button1">Back</a>
 </body>
 
 </html>
