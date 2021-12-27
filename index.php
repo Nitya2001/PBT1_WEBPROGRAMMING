@@ -26,7 +26,7 @@
         </div>
     </fieldset>
     <br>
-    <div>
+    <div class="content">
         <h1>
             Reserve Now!
         </h1>
